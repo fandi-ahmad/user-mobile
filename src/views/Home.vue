@@ -1,14 +1,14 @@
 <template>
-    <div class="container-fluid p-0 min-vh-100">
+    <div class="container-fluid p-0 min-vh-100 font-poppins">
         <NavbarTop/>
         <div class="p-2 pb-5 mb-5">
-            <InputSearch class="mb-4" />
+            <InputSearch class="mb-4" placeHolder="Search event, merchant..." />
             <div class="d-flex justify-content-between align-items-end mb-2">
                 <div>
                     <b>Popullar Event</b>
                     <div class="d-flex align-items-center mt-1">
-                        <span>Filter</span>
-                        <select class="ms-2 form-control px-1 py-0" style="width: 5rem;">
+                        <span class="fs-7">Filter</span>
+                        <select class="ms-2 form-control px-2 py-1 fs-7" style="width: 6rem;">
                             <option value="">Price up</option>
                             <option value="">Price up</option>
                         </select>
@@ -17,11 +17,17 @@
                 <span class="fs-7 text-primary">See more</span>
             </div>
 
-            <div class="w-100" style="overflow-x: scroll;">
+            <div class="w-100" style="overflow-x: scroll; ">
                 <div class="my-carousel">
-                    <BaseCard></BaseCard>
-                    <BaseCard></BaseCard>
-                    <BaseCard></BaseCard>
+                    <router-link :to="{ name: 'detail-event' }" class="link-style-none">
+                        <BaseCard></BaseCard>
+                    </router-link>
+                    <router-link :to="{ name: 'detail-event' }" class="link-style-none">
+                        <BaseCard></BaseCard>
+                    </router-link>
+                    <router-link :to="{ name: 'detail-event' }" class="link-style-none">
+                        <BaseCard></BaseCard>
+                    </router-link>
                 </div>
             </div>
 
@@ -48,5 +54,7 @@ import BaseCard2 from '../components/BaseCard2.vue';
 import InputSearch from '../components/InputSearch.vue';
 import Navbar from '../components/Navbar.vue';
 import NavbarTop from '../components/NavbarTop.vue';
+
+
 
 </script>

@@ -9,9 +9,13 @@
                 <b>Sofyan Saputra</b>
             </div>
 
-            <div class="btn rounded-pill bg-primary text-white">
-                <i class="fa-solid fa-user"></i>
+            <div class="btn rounded-pill bg-primary text-white sz-2 img-icon" :style="{ backgroundImage: `url('${Image}')` }">
+                <!-- <i class="fa-solid fa-user"></i> -->
             </div>
         </div>
     </div>
 </template>
+
+<script setup>
+    import Image from '../assets/image/img-2.jpg'
+</script>
