@@ -1,6 +1,6 @@
 <template>
-    <div class="card rounded-0" style="width: 12rem;">
-        <img src="../assets/image/img-1.jpg" class="card-img-top rounded-0" alt="" style="height: 8rem;">
+    <div class="card rounded-0 border border-0" style="width: 12rem;">
+        <img src="../assets/image/img-1.jpg" class="card-img-top rounded-0 my-shadow" alt="" style="height: 8rem;">
         <div class="card-body p-2">
             <div class="d-flex align-items-center justify-content-between">
                 <div>

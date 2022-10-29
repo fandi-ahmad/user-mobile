@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import EventList from '../views/EventList.vue'
 import Order from '../views/Order.vue'
 import Profile from '../views/Profile.vue'
+import DetailEvent from '../views/DetailEvent.vue'
 
 const routes = [
     {
@@ -24,6 +25,11 @@ const routes = [
         path: '/profile',
         name: 'profile',
         component: Profile
+    },
+    {
+        path: '/detail-event',
+        name: 'detail-event',
+        component: DetailEvent
     }
 ]
 

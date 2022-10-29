@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-light bg-light fixed-bottom w-100 d-flex justify-content-around">
+    <nav class="navbar navbar-light bg-light fixed-bottom w-100 d-flex justify-content-around font-montserrat">
         <router-link :to="{name : 'home'}" class="d-flex flex-column align-items-center nav-menu">
             <i class="fa-solid fa-house"></i>
             <span class="fs-7">Home</span>
