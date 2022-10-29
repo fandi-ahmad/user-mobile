@@ -1,0 +1,41 @@
+.nav-menu, .nav-menu:hover{
+    text-decoration: none;
+    color: var(--bs-secondary);
+}
+.fs-7{
+    font-size: 14px !important;
+}
+.fs-8{
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.fs-9{
+    font-size: 8px !important;
+    font-weight: 600;
+}
+.fs-10{
+    font-size: 6px !important;
+    font-weight: 600;
+}
+.sz-1{
+    width: 20px;
+    height: 20px;
+}
+.router-link-active{
+    color: var(--bs-purple) !important;
+}
+.input-search{
+    border: 0px;
+    outline: 0px;
+    width: 100%;
+}
+.img-icon{
+    background-size: cover;
+    border-radius: 50%;
+}
+.my-carousel{
+    min-width: max-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
